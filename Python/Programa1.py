@@ -1,11 +1,32 @@
-print("Ingresa 3 numeros para sacarle la media\n")
+#Calcular media de 3 numeros
+print "------------------------------------"
+print "-    CALCULA MEDIA DE 3 NUMEROS    -"
+print "------------------------------------"
+print ""
+print ""
+print "Escriba el primer numero: "
+a = input()
 
-suma1 = (input("Ingrese el primer numero: "))
-suma2 = (input("Ingrese el segundo numero: "))
-suma3 = (input("Ingresa el tercer numero: "))
+print "Escriba el segundo numero: " 
+b = input()
 
-resultado = (suma1 + suma2 + suma3)/3
-
-print("La media de los tres numeros",suma1,"+",suma2,"+",suma3,"/",3," = ",resultado)
+print "Escriba el tercer numero: "
+c = input()
 
 
+#Calcular la media
+def escribe_media():
+	media = (a + b + c)/3
+	print ""
+	print "........................................................."
+	print "                         RESULTADO                       "
+	print ""
+	print "la media de: ", a, ",", b, "y", c, "es:",  media
+	print ""
+	print "........................................................."
+	return
+
+escribe_media()
+print ""
+print "Programa Finalizado"
+print ""

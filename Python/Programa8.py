@@ -1,5 +1,3 @@
-#   8. Realiza un programa que permita generar un intervalo de n numeros entre 20 y 60
-
 def ocho():
    print ("Realiza un programa que permita generar un intervalo de n numeros entre 20 y 60")
    n = int(input ("Dame un numero: "))
